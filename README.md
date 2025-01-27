@@ -16,6 +16,25 @@
 ## Predictions
 ![predictions](https://github.com/sanjay-906/Visual-Question-Answering/assets/99668976/38121ba3-f94b-4b7f-b0e7-48a63bdea5ce)
 
+
+## Results
+| Metric           | Standard    | QLoRA       | Change    | Effect    |
+|------------------|-------------|-------------|-----------|-----------|
+| WUPS             | 0.264536    | 0.246825    | -6.695%   | 🔴       |
+| Accuracy         | 0.212510    | 0.190457    | -10.377%  | 🔴       |
+| F1-score         | 0.016420    | 0.011313    | -31.10%   | 🔴       |
+| Time complexity  | 88.462s     | 104.051s    | +17.622%  | 🔴       |
+| Space complexity | 7,78,448 KB | 2,05,483 KB | -73.603%  | 🟢       |
+| No of parameters | 199238631   | 115188711   | -42.185%  | 🟢       |
+
+### No of parameters:
+
+|                   | Total params | Trainable params | Trainable % | Effect |
+|-------------------|----------------------|----------------|-------------------|--------|
+| Standard   | 199238631            | 199238631      | 100.0% | 🔴 |
+| QLoRA             | 115188711              |   4251879     | 3.691% | 🟢 |
+
+
 ## Try Out
 OUTPUT: <a href="https://huggingface.co/spaces/sanjay-906/VQA" target="_blank">Click Here</a>
 
