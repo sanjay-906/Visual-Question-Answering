@@ -34,6 +34,9 @@
 | Standard   | 199238631            | 199238631      | 100.0% | 🔴 |
 | QLoRA             | 115188711              |   4251879     | 3.691% | 🟢 |
 
+## Training results
+![vqa_graphs_page-0001](https://github.com/user-attachments/assets/a7857bd6-70ec-4a84-bf1f-362cb877aa87)
+
 
 ## Try Out
 OUTPUT: <a href="https://huggingface.co/spaces/sanjay-906/VQA" target="_blank">Click Here</a>
